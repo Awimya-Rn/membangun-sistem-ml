@@ -1,0 +1,36 @@
+artifact_path: file:D:/cod/dicoding/MSML/proyek-akhir/membangun-sistem-ml/Membangun_model/mlruns/527217680276114316/models/m-e64d1ef1d8d14c3e8f1433c8291419c3/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.6.0
+model_id: m-e64d1ef1d8d14c3e8f1433c8291419c3
+model_size_bytes: 166486
+model_uuid: m-e64d1ef1d8d14c3e8f1433c8291419c3
+prompts: null
+run_id: 7f6de8cd52914ab09cab2fab8d757710
+signature:
+  inputs: '[{"type": "long", "name": "age", "required": true}, {"type": "long", "name":
+    "gender", "required": true}, {"type": "long", "name": "daily_screen_time_min",
+    "required": true}, {"type": "long", "name": "social_media_time_min", "required":
+    true}, {"type": "long", "name": "negative_interactions_count", "required": true},
+    {"type": "long", "name": "positive_interactions_count", "required": true}, {"type":
+    "double", "name": "sleep_hours", "required": true}, {"type": "long", "name": "physical_activity_min",
+    "required": true}, {"type": "long", "name": "anxiety_level", "required": true},
+    {"type": "long", "name": "stress_level", "required": true}, {"type": "long", "name":
+    "mood_level", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-12-24 13:10:12.526107'

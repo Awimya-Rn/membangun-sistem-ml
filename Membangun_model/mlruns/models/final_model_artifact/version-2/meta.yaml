@@ -1,0 +1,15 @@
+creation_timestamp: 1766581875391
+current_stage: None
+deployment_job_state: null
+description: ''
+last_updated_timestamp: 1766581875391
+model_id: m-5082405ebb8745489a1efbbbcece39da
+name: final_model_artifact
+run_id: 7f6de8cd52914ab09cab2fab8d757710
+run_link: ''
+source: models:/m-5082405ebb8745489a1efbbbcece39da
+status: READY
+status_message: null
+storage_location: file:D:/cod/dicoding/MSML/proyek-akhir/membangun-sistem-ml/Membangun_model/mlruns/527217680276114316/models/m-5082405ebb8745489a1efbbbcece39da/artifacts
+user_id: null
+version: 2

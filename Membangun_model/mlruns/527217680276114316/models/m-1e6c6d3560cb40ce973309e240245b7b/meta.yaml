@@ -1,0 +1,10 @@
+artifact_location: file:D:/cod/dicoding/MSML/proyek-akhir/membangun-sistem-ml/Membangun_model/mlruns/527217680276114316/models/m-1e6c6d3560cb40ce973309e240245b7b/artifacts
+creation_timestamp: 1766483321752
+experiment_id: '527217680276114316'
+last_updated_timestamp: 1766483325264
+model_id: m-1e6c6d3560cb40ce973309e240245b7b
+model_type: null
+name: model
+source_run_id: a5e067045b444f42871367ea3bac547c
+status: 2
+status_message: null

@@ -1,0 +1,22 @@
+artifact_path: file:D:/cod/dicoding/MSML/proyek-akhir/membangun-sistem-ml/Membangun_model/mlruns/527217680276114316/models/m-aa8a6446e90e4f308b9bc8e369232968/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.6.0
+model_id: m-aa8a6446e90e4f308b9bc8e369232968
+model_size_bytes: 214320
+model_uuid: m-aa8a6446e90e4f308b9bc8e369232968
+prompts: null
+run_id: a5e067045b444f42871367ea3bac547c
+utc_time_created: '2025-12-23 09:48:46.785816'

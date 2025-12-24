@@ -1,0 +1,17 @@
+digest: c3656d07
+name: dataset
+profile: '{"num_rows": 1000, "num_elements": 14000}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "person_name", "required": true},
+  {"type": "long", "name": "age", "required": true}, {"type": "long", "name": "date",
+  "required": true}, {"type": "long", "name": "gender", "required": true}, {"type":
+  "long", "name": "platform", "required": true}, {"type": "long", "name": "daily_screen_time_min",
+  "required": true}, {"type": "long", "name": "social_media_time_min", "required":
+  true}, {"type": "long", "name": "negative_interactions_count", "required": true},
+  {"type": "long", "name": "positive_interactions_count", "required": true}, {"type":
+  "double", "name": "sleep_hours", "required": true}, {"type": "long", "name": "physical_activity_min",
+  "required": true}, {"type": "long", "name": "anxiety_level", "required": true},
+  {"type": "long", "name": "stress_level", "required": true}, {"type": "long", "name":
+  "mood_level", "required": true}]}'
+source: '{"tags": {"mlflow.user": "HAMM", "mlflow.source.name": "modelling.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code
